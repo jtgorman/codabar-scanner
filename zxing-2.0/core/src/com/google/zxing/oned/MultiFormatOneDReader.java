@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+/*
+ * Modified by Jon Gorman
+ *
+ * I've commented out all but the codabar reader
+ * and uncommented the codabar reader
+ *
+ * This allows us to build an Android app that
+ * will scan library codabar barcodes.
+ */
+
 package com.google.zxing.oned;
 
 import com.google.zxing.BarcodeFormat;
