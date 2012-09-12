@@ -26,7 +26,7 @@ import com.google.zxing.oned.LibraryCodaBarReader ;
  * 
  * @author Jon Gorman
  */
-public final class CodaBarReaderValidatorTestCase extends Assert {
+public final class LibraryCodaBarReaderValidatorTestCase extends Assert {
 
   @Test
   public void testCheckDigit() {
