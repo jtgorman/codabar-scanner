@@ -12,6 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Added LIBRARY_CODABAR - Jon Gorman
  */
 
 package com.google.zxing;
@@ -106,6 +108,7 @@ public final class MultiFormatReader implements Reader {
           formats.contains(BarcodeFormat.EAN_13) ||
           formats.contains(BarcodeFormat.EAN_8) ||
           //formats.contains(BarcodeFormat.CODABAR) ||
+        formats.contains(BarcodeFormat.LIBRARY_CODABAR) ||
           formats.contains(BarcodeFormat.CODE_39) ||
           formats.contains(BarcodeFormat.CODE_93) ||
           formats.contains(BarcodeFormat.CODE_128) ||

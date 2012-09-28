@@ -160,7 +160,7 @@ public final class LibraryCodaBarReader extends OneDReader {
         new ResultPoint[]{
             new ResultPoint(left, (float) rowNumber),
             new ResultPoint(right, (float) rowNumber)},
-        BarcodeFormat.CODABAR);
+        BarcodeFormat.LIBRARY_CODABAR);
   }
 
   private static int[] findAsteriskPattern(BitArray row) throws NotFoundException {

@@ -19,6 +19,7 @@ package com.google.zxing;
 /**
  * Enumerates barcode formats known to this package. Please keep alphabetized.
  *
+ * Added LibraryCodaBar - Jon Gorman
  * @author Sean Owen
  */
 public enum BarcodeFormat {
@@ -50,6 +51,11 @@ public enum BarcodeFormat {
   /** ITF (Interleaved Two of Five) 1D format. */
   ITF,
 
+      /** Library CodaBar **/
+      LIBRARY_CODABAR,
+      
+
+      
   /** MaxiCode 2D barcode format. */
   MAXICODE,
 
